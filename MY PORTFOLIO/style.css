@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #1e1e1e;
+}
+.container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    position: relative;
+    margin: auto;
+    top: 40px;
+}
+.sidebar{
+    height: 90vh;
+    background-color:#2a2a2a ;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+    position: sticky;
+    top: 40px;
+    
+}
+.main{
+    height: 221vh;
+    background-color:#2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 16px;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    background-image:url("img1.png");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 40px;
+    position: relative;
+    left: 90px;
+
+}
+.name{
+    color:white;
+    position: relative;
+    left: 90px;
+    font-size: 1.5rem;
+    margin: 15px;
+   
+}
+.tag{
+    background-color: #1e1e1e;
+    color: gold;
+    display: inline-block;
+  position: relative;
+  left: 100px;
+  margin-top: 5px;
+  padding: 12px;
+    font-size: 1.15rem;
+}
+.contact{
+    position: relative;
+    left: 40px;
+}
+#h1{
+    background-color:gray;
+    border: 1px solid gray;
+    margin: 30px;
+    
+}
+#h2{
+    background-color:gray;
+    border: 1px solid gray;
+    margin: 30px;
+    
+}
+
+span{
+    color: gray;
+    margin:px;
+    
+}
+p{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+#i1{
+    font-size: 2rem;
+    margin-left: 20px;
+
+}
+button{
+    background-color: #2a2a2a;;
+    border: none;
+
+}
+
+#a2{
+    text-decoration: none;
+    position: relative;
+    left: 350px;
+    top: 25px;
+    margin-left: 25px;
+    color: gray;
+    font-size: 1.5rem;
+    
+}
+#a2:hover{
+    color: gold;
+}
+#h3{
+  
+    margin: 40px;
+    border: 1px solid gray;
+}
+h1{
+    color: white;
+    position: relative;
+    left: 40px;
+}
+.line{
+    border: 2px solid gold;
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+#p1{
+    color: gray;
+    margin: 30px;
+    word-spacing: 5px;
+}
+.logo{
+    color: gold;
+    
+    
+    
+   
+}
+#p4{
+    font-size: 1rem;
+    background-color: #1e1e1e;
+    
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+position: relative;
+top:30px;
+left: 30px;
+}
+i{
+    font-size: 4rem;
+    color: gold;
+}
+#p5{
+    font-size: 1rem;
+    color: gray;
+    position: relative;
+    top: 30px;
+    
+}
+#h5{
+    position: relative;
+    top: 60px;
+}
+.line2{
+     border: 2px solid gold;
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+ 
+    border-radius: 50%;
+    border: 3px solid gold;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    
+}
+#s1{
+    position: relative;
+    top: 84px;
+    left: 60px;
+}
+#head1{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+#s2{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-style: italic;
+}
+.vertical{
+    height: 100px;
+    width: 2px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    left: 37px;
+    top: 42px;
+}
+.circle2{
+      height: 10px;
+    width: 10px;
+ 
+    border-radius: 50%;
+    border: 3px solid gold;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+#s3{
+    position: relative;
+       top: 24px;
+    left: 60px;
+}
+#head2{
+    position: relative;
+left: 60px;
+top: 30px;
+color: white;
+}
+#s4{
+    font-style: italic;
+    position: relative;
+    left: 60px;
+    top: 40px;
+
+
+}
+.vertical2{
+      height: 100px;
+    width: 2px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    left: 37px;
+    top: -17px;
+}
+.circle3{
+          height: 10px;
+    width: 10px;
+ 
+    border-radius: 50%;
+    border: 3px solid gold;
+    position: relative;
+    top: -17px;
+    left: 30px;
+}
+#s5{
+    position: relative;
+    left: 60px;
+    top: -33px;
+}
+#head3{
+    color: white;
+    position: relative;
+    top:-25px;
+    left: 60px;
+}
+#s6{
+    font-style: italic;
+    position: relative;
+    top: -15px;
+    left: 60px;
+}
+.vertical3{
+      height: 100px;
+    width: 2px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    left: 37px;
+    top: -74px;
+    
+}
+#h6{
+      position: relative;
+    top: -60px;
+}
+.line3{
+      border: 2px solid gold;
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+.imgbox{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.b1{
+    height: 250px;
+    width: 350px;
+    background-color:#1e1e1e;
+    position: relative;
+   
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#img1{
+   
+    width: 350px;
+    height: 150px;
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+}
+.b2{
+     height: 250px;
+    width: 350px;
+    background-color:#1e1e1e;
+    position: relative;
+    
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#img2{
+        width: 350px;
+    height: 150px;
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+}
+.imgbox2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.b3{
+      height: 250px;
+    width: 350px;
+    background-color:#1e1e1e;
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;  
+   margin-top: 30px;
+}
+#img3{
+    width: 350px;
+    height: 150px;
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+}
+.b4{
+      height: 250px;
+    width: 350px;
+    background-color:#1e1e1e;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid gray;  
+   margin-top: 30px;
+   margin: 30px;
+}
+#img4{
+       width: 350px;
+    height: 150px;
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   
+}
+
+#port1{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    
+    
+
+}
+#port1:hover{
+    color: gold;
+}
+button{
+    color: gold;
+    background-color: #3a3a3a;
+
+
+    padding: 6px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.loading-text {
+	place-self: center;
+	background: linear-gradient(90deg, rgb(246, 230, 192), rgb(209, 100, 10), rgb(239, 206, 74)) -100%/ 200%;
+	/* being excessively careful with compat, 
+	 * though this has been supported unprefixed and 
+	 * in the shorthand across major browsers for a while;
+	 * but it catches the latest browser versions supported 
+	 * on Wndows XP, 7 and 8; yeah, they exist in 2025 */
+	-webkit-background-clip: text;
+	        background-clip: text;
+	/* use color, don't use -webkit-text-fill-color anymore, 
+	 * was meant to solve a problem we haven't had in years */
+	color: transparent;
+	/*font: 900 clamp(2em, 10vw, 10em) exo, sans-serif;*/
+	animation: shimmer 2s linear infinite
+}
+
+@keyframes shimmer { to { background-position: 100% } }
+
+/* avoid problems in high contrast mode */
+@media (forced-colors: active) {
+  p {
+    background: #212121;
+    color: gold;
+  }
+}
